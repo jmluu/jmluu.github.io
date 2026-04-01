@@ -1,0 +1,42 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: "Jimmy Luu"
+  given: "Jimmy"
+  family: "Luu"
+
+role: "Researcher"
+
+bio: |
+  Your bio goes here. Describe your research interests and background.
+
+affiliations:
+  - name: "Your University"
+    url: ""
+
+links:
+  - icon: at-symbol
+    url: "mailto:your-email@example.com"
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/jmluu
+
+interests:
+  - "Interest A"
+  - "Interest B"
+  - "Interest C"
+
+education:
+  - degree: "PhD in Your Field"
+    institution: "Your University"
+    start: "2020-09-01"
+    end: ""
+    summary: ""
+
+experience:
+  - role: "Your Role"
+    org: "Your Organization"
+    start: "2020-01-01"
+    summary: ""

@@ -1,0 +1,41 @@
+title: "Jimmy Luu"
+baseURL: "https://jmluu.github.io/"
+
+defaultContentLanguage: en
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+build:
+  writeStats: true
+enableGitInfo: false
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+disableAliases: true
+
+outputs:
+  home: [HTML, RSS]
+  section: [HTML, RSS]
+
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+
+timeout: 600000
+
+taxonomies:
+  author: authors
+  tag: tags
+  publication_type: publication_types
+
+markup:
+  _merge: deep
+security:
+  _merge: deep
+sitemap:
+  _merge: deep

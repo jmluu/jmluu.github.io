@@ -1,0 +1,24 @@
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: "Academic website of Jimmy Luu"
+
+appearance:
+  mode: system
+  color: default
+
+header:
+  navbar:
+    enable: true
+    blox: "navbar"
+    show_search: true
+    show_theme: true
+    show_language: true
+    show_theme_picker: true
+
+footer:
+  text: ""
+  copyright:
+    notice: "© {year} Jimmy Luu. All rights reserved."

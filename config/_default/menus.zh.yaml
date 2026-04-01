@@ -1,0 +1,16 @@
+main:
+  - name: 主页
+    url: /
+    weight: 10
+  - name: 论文
+    url: /publications/
+    weight: 20
+  - name: 项目
+    url: /projects/
+    weight: 30
+  - name: 活动
+    url: /events/
+    weight: 40
+  - name: 博客
+    url: /blog/
+    weight: 50

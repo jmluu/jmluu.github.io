@@ -1,0 +1,31 @@
+hugoblox:
+  schema: "2.0"
+
+theme:
+  mode: system
+  pack: "default"
+
+typography:
+  pack: "academic"
+
+layout:
+  radius: "md"
+  spacing: "comfortable"
+
+header:
+  style: navbar
+  sticky: true
+  align: center
+  search: true
+  theme_toggle: true
+  theme_picker: true
+  language_toggle: true
+
+footer:
+  style: minimal
+  copyright:
+    notice: "© {year} Jimmy Luu. All rights reserved."
+
+content:
+  citations:
+    style: apa

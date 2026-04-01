@@ -1,0 +1,13 @@
+en:
+  locale: en-us
+  contentDir: content/en
+  title: "Jimmy Luu"
+  params:
+    description: "Academic website of Jimmy Luu"
+
+zh:
+  locale: zh-Hans
+  contentDir: content/zh
+  title: "Jimmy Luu"
+  params:
+    description: "Jimmy Luu 的学术主页"
